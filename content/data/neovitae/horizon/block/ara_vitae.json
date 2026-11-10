@@ -1,0 +1,37 @@
+{
+  "template": "minecraft:carved_pumpkin",
+  "properties": {
+    "hardness": 2.0,
+    "explosion_resistance": 5.0,
+    "occludes": false,
+    "requires_tool": true,
+    "sounds": "minecraft:stone"
+  },
+  "shapes": {
+    "default": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.75,
+        1.0
+      ]
+    ]
+  },
+  "collision_shapes": {
+    "default": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.75,
+        1.0
+      ]
+    ]
+  },
+  "default_state": {
+    "facing": "north"
+  }
+}

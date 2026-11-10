@@ -1,0 +1,10 @@
+{
+  "block.neovitae.ara_vitae": "Ara Vitae",
+  "block.neovitae.rune_blank": "Blank Rune",
+  "block.neovitae.rune_capacity": "Capacity Rune",
+  "block.neovitae.rune_capacity_augmented": "Augmented Capacity Rune",
+  "item.neovitae.blood_orb_weak": "Novicius Orb of Vitae",
+  "itemGroup.neovitae": "Neo Vitae",
+  "message.neovitae.altar_blood_refused": "The altar refuses your blood.",
+  "message.neovitae.altar_draws_blood": "The Ara Vitae draws your blood."
+}

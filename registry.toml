@@ -1,0 +1,49 @@
+id = "neovitae"
+kind = "native-mod"
+name = "neovitae"
+summary = "A Horizon port of neovitae."
+description = """
+A port of [neovitae](breakinblocks/NeoVitae) for Horizon.
+
+**Implemented so far**
+
+- The altar** `neovitae:ara_vitae` (content template `minecraft:carved_pumpkin`:
+- a horizontal `facing` block with no menu, so a right click reaches the use
+- hooks; hardness 2 / blast 5 / stone sounds; collision 16×12×16, occludes
+- nothing). It has a block entity (`block_entity`, API 15), ticks
+- (`block_entity_ticks` + `block_entity_tick`, API 15/17) and one slot
+- (`block_entity_container`, API 16, no menu).
+- Structure → tier**, data-driven from the jar's two layouts: `weak` (the altar
+- alone, tier 0) and `apprentice` (altar + 8 runes at `y-1`, tier 1). The tier is
+
+**Not yet ported**
+
+- Altar tiers `mage`/`master`/`archmage`/`transcendent` (pillars, t3–t6 capstones,
+- tier effects), the 21-rune family beyond Capacity (speed, efficiency, sacrifice,
+- self-sacrifice, acceleration, dislocation, orb, charging and their reinforced
+- versions), the augmented-capacity *charging* capacity, the altar's fluid I/O
+- (input/output/charging tanks), the reserve auto-move, the tier-0 bootstrap leech
+- (`leechNearbyPlayers`), redstone signal/comparator output, the altar's particles
+- and sounds, the block-entity renderer (the altar model is static here), the
+- `.hmod` crafting tree above the altar (vitae stone, tabula rasa/robur/animata/
+
+Original copyright and licence notices are kept in this repository. Pinned to
+Horizon 1d63e0a and horizon-mixins 5a64af93. Help with the remaining slices is
+welcome.
+"""
+authors = ["AdLf0208"]
+owners = ["AdLf0208"]
+owner_ids = [107615167]
+license = "MIT"
+source = "https://github.com/AdLf0208/neovitae"
+icon = "icons/neovitae.png"
+categories = ["utility"]
+tags = ["port", "horizon"]
+
+[[versions]]
+version = "0.1.0"
+published = "2026-11-10"
+game = "26.3"
+file = "neovitae.hnmod"
+sha256 = "e187287c1a1962fa2a69466814aa1e59775e2a6f1c2b1cf95b55f4d9c8a9bae8"
+changelog = "First release"

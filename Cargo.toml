@@ -1,0 +1,16 @@
+[package]
+# Ported from: Neo Vitae 1.1.51 (breakinblocks/NeoVitae, MIT), Minecraft Java
+# 1.21.1 NeoForge. Local-only until the maintainer approves publishing.
+name = "horizon-neovitae"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.95"
+license = "MIT"
+description = "Neo Vitae for Horizon: the Ara Vitae altar, capacity runes and the weak orb"
+
+[lib]
+# This exact source is also injected as a same-crate module by horizon-mixins.
+path = "mixins/neovitae/runtime.rs"
+
+[workspace]
+resolver = "2"

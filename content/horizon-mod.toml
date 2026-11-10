@@ -1,0 +1,14 @@
+# Port-owned content mod for the NeoVitae slice 1: the Ara Vitae altar, the
+# Capacity Rune family and the Novicius Orb of Vitae. The blockstates, models,
+# textures, loot tables and lang lines are upstream's own MIT assets, read from
+# the exact ATM10 jar (see ../CONTENT.md and ../FINDINGS.md).
+#
+# The altar's own crafting (the weak orb at 2,000 LP) is a recipe type the
+# content format cannot declare (`neovitae:ara_vitae_recipe`); it lives in the
+# native half (mixins/neovitae/runtime.rs) with the jar's exact numbers.
+id = "neovitae"
+name = "Neo Vitae"
+version = "0.1.0"
+api = "0.2"
+side = "both"
+capabilities = ["registries"]

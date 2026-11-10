@@ -1,0 +1,11 @@
+{
+  "icon": "neovitae:ara_vitae",
+  "items": [
+    "neovitae:ara_vitae",
+    "neovitae:rune_blank",
+    "neovitae:rune_capacity",
+    "neovitae:rune_capacity_augmented",
+    "neovitae:blood_orb_weak"
+  ],
+  "title": "itemGroup.neovitae"
+}
